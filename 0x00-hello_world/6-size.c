@@ -3,7 +3,7 @@
  * main -  A program that prints the size of various types 
  * Return: (return 0 indicates succesful execution)
  */
-int main (void)
+int main(void)
 {
 char i;
 int j;
