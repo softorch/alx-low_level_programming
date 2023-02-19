@@ -11,6 +11,6 @@ for (i = 0; i < 26; i++)
 {
 putchar(letters[i]);
 }
-puchar('\n');
+putchar('\n');
 return (0);
 }
