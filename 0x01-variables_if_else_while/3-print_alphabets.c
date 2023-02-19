@@ -5,15 +5,11 @@
  */
 int main(void)
 {
-int chr;
-for (chr = 'a'; chr <= 'z'; chr++)
-{
-putchar(chr);
-for (chr = 'A'; chr <= 'Z'; chr++)
-{
-putchar(chr);
-}
-}
+int ch;
+for (ch = 'a'; ch <= 'z'; ch++)
+	putchar(ch);
+for (ch = 'A'; ch <= 'Z'; ch++)
+	putchar(ch);
 putchar('\n');
 return (0);
 }
