@@ -9,7 +9,7 @@
  */
 int clear_bit(unsigned long int *x, unsigned int i)
 {
-	if (I > 63)
+	if (i > 63)
 		return (-1);
 
 	*x = (~(1UL << i) & *x);
