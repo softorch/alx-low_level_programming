@@ -3,11 +3,11 @@
 
 /**
  * list_len – function that returns the number of elements in a linked list
- * @h: pointer to the list_t list
+ * @y: pointer to the list_t list
  *
- * Return: number of elements in h
+ * Return: number of elements in y
  */
-size_t list_len(const list_t *h)
+size_t list_len(const list_t *y)
 {
 size_t x = 0;
 
